@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    background-color: #505;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.left div,
+.right div {
+    display: flex;
+    width: 960px;
+    height: 960px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    width: 400px;
+    font-size: 30px;
+    font-weight:bold;
+    color: yellowgreen;
+}
+
+img {
+    width: 960px;
+    height: 960px;
+    margin: 0px;
+}
